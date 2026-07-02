@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Data &amp; Compliance — IdealPartner</title>
+  <meta name="description" content="Detailed data-handling reference for IdealPartner: CCPA/CPRA categories, GDPR purposes, retention, sub-processors, and transfers." />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="bar">
+      <a class="brand" href="index.html">IdealPartner <span class="sub">· Legal</span></a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="data-compliance.html" aria-current="page">Data &amp; Compliance</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <h1 class="doc-title" id="top">Data &amp; Compliance</h1>
+    <p class="updated">Last updated: <strong>July 3, 2026</strong>
+      &nbsp;·&nbsp; Effective: <strong>July 3, 2026</strong></p>
+
+    <div class="note" role="note">
+      <strong>Please read — this is a template, not legal advice.</strong> This page is a
+      compliance-aligned template that supplements our <a href="privacy.html">Privacy
+      Policy</a>. Review it with a qualified attorney and replace every
+      <span class="ph">[PLACEHOLDER]</span> before publishing. Keep this page in sync with your
+      Apple App Store privacy labels.
+    </div>
+
+    <p>This page provides a detailed reference for how IdealPartner handles personal
+      information, including the CCPA/CPRA category matrix, GDPR processing purposes and legal
+      bases, retention, sub-processors, and international-transfer safeguards. Defined terms and
+      your rights are set out in the <a href="privacy.html">Privacy Policy</a>.</p>
+
+    <nav class="toc" aria-label="Table of contents">
+      <h2>Contents</h2>
+      <ol>
+        <li><a href="#matrix">CCPA/CPRA categories collected</a></li>
+        <li><a href="#sensitive">Sensitive personal information</a></li>
+        <li><a href="#disclosed">Categories disclosed &amp; to whom</a></li>
+        <li><a href="#no-sell">No sale / no “share”</a></li>
+        <li><a href="#purposes">Purposes &amp; legal bases (GDPR)</a></li>
+        <li><a href="#subprocessors">Sub-processors</a></li>
+        <li><a href="#transfers">International transfers</a></li>
+        <li><a href="#retention">Retention schedule</a></li>
+        <li><a href="#security">Security measures</a></li>
+        <li><a href="#rights">Exercising your rights</a></li>
+        <li><a href="#breach">Breach handling</a></li>
+        <li><a href="#changes">Updates</a></li>
+      </ol>
+    </nav>
+
+    <section class="section" id="matrix">
+      <h2>1. CCPA/CPRA categories of personal information collected</h2>
+      <p>In the preceding 12 months, we have collected the following statutory categories. “No”
+        means we do not collect that category.</p>
+      <div class="table-wrap">
+        <table>
+          <caption>CCPA/CPRA §1798.140 categories.</caption>
+          <thead>
+            <tr>
+              <th scope="col">Category</th>
+              <th scope="col">Collected?</th>
+              <th scope="col">Examples in IdealPartner</th>
+              <th scope="col">Source</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>A. Identifiers</strong></td>
+              <td>Yes</td>
+              <td>Email (auth only, never shown publicly), Sign in with Apple identifier, display name, friend code, account ID</td>
+              <td>You; Apple</td>
+            </tr>
+            <tr>
+              <td><strong>B. Customer records</strong></td>
+              <td>Yes</td>
+              <td>Profile: bio, avatar, interest tags, birthday (month + day only), optional Instagram handle</td>
+              <td>You</td>
+            </tr>
+            <tr>
+              <td><strong>C. Protected classifications</strong></td>
+              <td>No*</td>
+              <td>We do not intentionally collect protected-class data.</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td><strong>D. Commercial information</strong></td>
+              <td>Yes</td>
+              <td>In-app purchase records (subscription, coin packs) and entitlements. Apple processes payment; we store no card data</td>
+              <td>Apple (StoreKit)</td>
+            </tr>
+            <tr>
+              <td><strong>E. Biometric information</strong></td>
+              <td>No</td>
+              <td>Not collected</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td><strong>F. Internet / network activity</strong></td>
+              <td>Yes (limited)</td>
+              <td>Request metadata and in-app activity needed to operate the service (e.g. progress sync, feed interactions). No third-party analytics/tracking SDKs</td>
+              <td>Automatic; you</td>
+            </tr>
+            <tr>
+              <td><strong>G. Geolocation data</strong></td>
+              <td>Yes (approximate only)</td>
+              <td>Coarse location inferred from IP by our host; selected dating market/region preference; device locale. <strong>No precise/GPS location</strong></td>
+              <td>Automatic; you</td>
+            </tr>
+            <tr>
+              <td><strong>H. Sensory data (audio/visual)</strong></td>
+              <td>Yes</td>
+              <td>Photos you upload — avatars and community/reflection photos (downscaled on device)</td>
+              <td>You</td>
+            </tr>
+            <tr>
+              <td><strong>I. Professional / employment</strong></td>
+              <td>No</td>
+              <td>Not collected</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td><strong>J. Education information</strong></td>
+              <td>No</td>
+              <td>Not collected</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td><strong>K. Inferences</strong></td>
+              <td>No</td>
+              <td>We do not build advertising or behavioral profiles. Progress (XP, streaks) reflects your in-app actions, not derived profiling</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td><strong>L. Sensitive personal information</strong></td>
+              <td>See §2</td>
+              <td>Account log-in credentials; possibly content you voluntarily post. See below</td>
+              <td>You</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:14px;color:var(--text-secondary)">* Free-text fields (bio, interest
+        tags, posts) could contain information a user voluntarily chooses to share. We do not
+        require or use it as a protected classification.</p>
+      <a class="back-to-top" href="#top">Back to top</a>
+    </section>
+
+    <section class="section" id="sensitive">
+      <h2>2. Sensitive personal information (CPRA)</h2>
+      <p>The main item of <strong>sensitive personal information</strong> we handle is your
+        <strong>account log-in credentials</strong> (email + password, or Sign in with Apple),
+        which we use only to authenticate you and secure your account. Users may also
+        <em>voluntarily</em> reveal sensitive details in free-text or photos they post; we do
+        not require this and do not use it to infer characteristics.</p>
+      <p>We use sensitive personal information only for the permitted purposes under the CPRA
+        (such as providing the service you requested and securing it) and <strong>not</strong>
+        to infer characteristics. Accordingly, the “Right to Limit the Use of Sensitive Personal
+        Information” is offered as described in the <a href="privacy.html#ccpa-rights">Privacy
+        Policy</a>, though our uses fall within the exemptions that do not trigger a mandatory
+        limit option.</p>
+      <a class="back-to-top" href="#top">Back to top</a>
+    </section>
+
+    <section class="section" id="disclosed">
+      <h2>3. Categories disclosed for a business purpose &amp; to whom</h2>
+      <p>We disclose personal information only to service providers/processors acting on our
+        behalf, to other users through features you choose to use, and as required by law.</p>
+      <div class="table-wrap">
+        <table>
+          <caption>Disclosures for a business purpose in the preceding 12 months.</caption>
+          <thead>
+            <tr>
+              <th scope="col">Category disclosed</th>
+              <th scope="col">Recipient(s)</th>
+              <th scope="col">Business purpose</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Identifiers, customer records, content, photos, progress</td><td>Supabase (service provider)</td><td>Hosting database, authentication, storage</td></tr>
+            <tr><td>Identifiers (auth); commercial information</td><td>Apple (service provider)</td><td>Sign in with Apple; StoreKit purchase processing</td></tr>
+            <tr><td>Display name + streak; posts, likes, poll votes, team chat</td><td>Other users (per feature)</td><td>Operate leagues/cohorts, teams, and the public Community feed you choose to use</td></tr>
+            <tr><td>Any category, as required</td><td>Legal/regulatory authorities</td><td>Legal compliance, safety, enforcing Terms</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <a class="back-to-top" href="#top">Back to top</a>
+    </section>
+
+    <section class="section" id="no-sell">
+      <h2>4. No sale / no “share”</h2>
+      <p>We have <strong>not sold</strong> and have <strong>not “shared”</strong> (for
+        cross-context behavioral advertising) any category of personal information in the
+        preceding 12 months, and we do not do so. We also do not sell or share the personal
+        information of minors, as the App is for adults 18+.</p>
+      <a class="back-to-top" href="#top">Back to top</a>
+    </section>
+
+    <section class="section" id="purposes">
+      <h2>5. Processing purposes &amp; legal bases (GDPR)</h2>
+      <div class="table-wrap">
+        <table>
+          <caption>Purpose → data → GDPR legal basis.</caption>
+          <thead>
+            <tr>
+              <th scope="col">Purpose</th>
+              <th scope="col">Data used</th>
+              <th scope="col">Legal basis</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Account &amp; authentication</td><td>Email/Apple ID, credentials, tokens</td><td>Contract (Art. 6(1)(b))</td></tr>
+            <tr><td>Deliver lessons, drills, scenarios; sync progress</td><td>Progress data, profile</td><td>Contract (Art. 6(1)(b))</td></tr>
+            <tr><td>Social features (friends, teams, leagues, feed, gifting)</td><td>Display name, streak, posts, chat, friend code</td><td>Contract (Art. 6(1)(b)); consent for optional items (Art. 6(1)(a))</td></tr>
+            <tr><td>Optional profile fields</td><td>Avatar, bio, interest tags, Instagram handle</td><td>Consent (Art. 6(1)(a))</td></tr>
+            <tr><td>Purchases &amp; entitlements</td><td>Commercial information from Apple</td><td>Contract (Art. 6(1)(b)); legal obligation (Art. 6(1)(c))</td></tr>
+            <tr><td>Safety, moderation, abuse/fraud prevention, security</td><td>Reports, blocks, request metadata</td><td>Legitimate interests (Art. 6(1)(f))</td></tr>
+            <tr><td>Localization</td><td>Device locale, region preference</td><td>Contract / legitimate interests</td></tr>
+            <tr><td>Legal compliance</td><td>As necessary</td><td>Legal obligation (Art. 6(1)(c))</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <a class="back-to-top" href="#top">Back to top</a>
+    </section>
+
+    <section class="section" id="subprocessors">
+      <h2>6. Sub-processors</h2>
+      <p>We use the following sub-processors to provide the App. We maintain data-processing
+        terms with each, as required by GDPR Art. 28 and the CCPA service-provider rules.</p>
+      <div class="table-wrap">
+        <table>
+          <caption>Current sub-processors.</caption>
+          <thead>
+            <tr>
+              <th scope="col">Sub-processor</th>
+              <th scope="col">Function</th>
+              <th scope="col">Data processed</th>
+              <th scope="col">Location / region</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Supabase</strong></td>
+              <td>Database, authentication, storage</td>
+              <td>Account, profile, progress, content, photos</td>
+              <td>ap-northeast-1</td>
+            </tr>
+            <tr>
+              <td><strong>Apple</strong></td>
+              <td>Sign in with Apple; StoreKit in-app purchases; App distribution</td>
+              <td>Auth identifier; purchase/billing (Apple stores payment data, not us)</td>
+              <td>United States / global</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note" role="note">
+        <strong>Note — analytics/advertising.</strong> No third-party analytics or advertising
+        SDKs are currently used. If any are added in the future, list the vendor here and update
+        the CCPA matrix, the “no sale/share” statement, and your App Store privacy labels.
+      </div>
+      <a class="back-to-top" href="#top">Back to top</a>
+    </section>
+
+    <section class="section" id="transfers">
+      <h2>7. International data transfers</h2>
+      <p>Personal information may be processed outside the EEA/UK, including in the United States,
+        by Supabase and Apple. Our primary hosting region is
+        ap-northeast-1. For transfers out of the EEA/UK we rely
+        on appropriate safeguards, including the EU <strong>Standard Contractual Clauses
+        (SCCs)</strong> and the <strong>UK International Data Transfer Addendum</strong>, plus any
+        supplementary measures required as applicable.
+        Copies of relevant safeguards are available on request at
+        charlx.studio@gmail.com.</p>
+      <a class="back-to-top" href="#top">Back to top</a>
+    </section>
+
+    <section class="section" id="retention">
+      <h2>8. Retention schedule</h2>
+      <p>See the indicative schedule in <a href="privacy.html#retention">Privacy Policy §12</a>.
+        Summary:</p>
+      <div class="table-wrap">
+        <table>
+          <caption>Retention summary (mirrors the Privacy Policy).</caption>
+          <thead>
+            <tr><th scope="col">Data</th><th scope="col">Retention</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Account &amp; profile</td><td>Life of account; deleted within 30 days of deletion</td></tr>
+            <tr><td>Progress data</td><td>Life of account</td></tr>
+            <tr><td>Community/team content</td><td>Until deleted by you or account deletion, subject to our backup and moderation limits</td></tr>
+            <tr><td>Moderation/report records</td><td>12 months</td></tr>
+            <tr><td>Purchase records</td><td>7 years for tax/accounting</td></tr>
+            <tr><td>Backups</td><td>Expire within 90 days</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <a class="back-to-top" href="#top">Back to top</a>
+    </section>
+
+    <section class="section" id="security">
+      <h2>9. Security measures</h2>
+      <ul>
+        <li>TLS/HTTPS encryption in transit; encryption at rest via the hosting provider.</li>
+        <li>Credentials handled by the auth provider with industry-standard hashing; tokens in the
+          iOS Keychain.</li>
+        <li>Access controls and least-privilege, including database access controls provided by
+          our hosting platform.</li>
+        <li>On-device photo downscaling/compression before upload.</li>
+        <li>Encrypted backups via our hosting provider, and reliance on the security practices of
+          our providers (Supabase and Apple).</li>
+      </ul>
+      <a class="back-to-top" href="#top">Back to top</a>
+    </section>
+
+    <section class="section" id="rights">
+      <h2>10. Exercising your rights</h2>
+      <p>Submit any CCPA/CPRA or GDPR request to charlx.studio@gmail.com or
+        新北市永和區中正路91號. Details on verification, authorized agents,
+        appeals, non-discrimination, and response timelines are in the
+        <a href="privacy.html#exercise">Privacy Policy</a>. You may also lodge a complaint with a
+        supervisory authority (EEA/UK) or the California Privacy Protection Agency / California
+        Attorney General.</p>
+      <a class="back-to-top" href="#top">Back to top</a>
+    </section>
+
+    <section class="section" id="breach">
+      <h2>11. Breach handling</h2>
+      <p>We maintain incident-response procedures and will notify authorities and affected
+        individuals as required by GDPR (including the 72-hour authority-notification standard),
+        the CCPA/CPRA, and applicable U.S. state breach-notification laws. See
+        <a href="privacy.html#breach">Privacy Policy §18</a>.</p>
+      <a class="back-to-top" href="#top">Back to top</a>
+    </section>
+
+    <section class="section" id="changes">
+      <h2>12. Updates</h2>
+      <p>We will update this page as our data practices or sub-processors change, revise the “Last
+        updated” date, and give additional notice for material changes as described in the
+        <a href="privacy.html#changes">Privacy Policy</a>.</p>
+      <a class="back-to-top" href="#top">Back to top</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="inner">
+      <nav aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+        <a href="data-compliance.html">Data &amp; Compliance</a>
+      </nav>
+      <p>© 2026 Charles Tsai. This
+        document is a template and does not constitute legal advice. Have it reviewed by a
+        qualified attorney before launch.</p>
+    </div>
+  </footer>
+</body>
+</html>
